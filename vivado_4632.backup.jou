@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sat Aug 12 18:31:45 2023
+# Process ID: 4632
+# Current directory: C:/Users/user/Desktop/practice/traffic_light_control
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15148 C:\Users\user\Desktop\practice\traffic_light_control\traffic_light_control.xpr
+# Log file: C:/Users/user/Desktop/practice/traffic_light_control/vivado.log
+# Journal file: C:/Users/user/Desktop/practice/traffic_light_control\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Desktop/practice/traffic_light_control/traffic_light_control.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source trf_lgt_cont.tcl
+add_force {/trf_lgt_cont/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/trf_lgt_cont/rst} -radix hex {0 0ns}
+run 10 us
+add_force {/trf_lgt_cont/rst} -radix hex {1 0ns}
+run 10 us
+file mkdir C:/Users/user/Desktop/practice/traffic_light_control/traffic_light_control.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/user/Desktop/practice/traffic_light_control/traffic_light_control.srcs/sim_1/new/tb.v w ]
+add_files -fileset sim_1 C:/Users/user/Desktop/practice/traffic_light_control/traffic_light_control.srcs/sim_1/new/tb.v
+update_compile_order -fileset sim_1
+synth_design -rtl -name rtl_1
+close_sim
+launch_simulation
+source trf_lgt_cont.tcl
+update_compile_order -fileset sim_1
+launch_simulation
+source tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source tb.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+save_wave_config {C:/Users/user/Desktop/practice/traffic_light_control/tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/user/Desktop/practice/traffic_light_control/tb_behav.wcfg
+set_property xsim.view C:/Users/user/Desktop/practice/traffic_light_control/tb_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Users/user/Desktop/practice/traffic_light_control/tb_behav.wcfg
+source tb.tcl
+run 10 s
+close_sim
+launch_simulation
+open_wave_config C:/Users/user/Desktop/practice/traffic_light_control/tb_behav.wcfg
+source tb.tcl
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/user/Desktop/practice/traffic_light_control/tb_behav.wcfg}
+close_sim
+close_sim

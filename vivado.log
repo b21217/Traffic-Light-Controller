@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Aug 17 23:20:35 2023
+# Process ID: 16968
+# Current directory: C:/Users/user/Desktop/practice/traffic_light_control
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13896 C:\Users\user\Desktop\practice\traffic_light_control\traffic_light_control.xpr
+# Log file: C:/Users/user/Desktop/practice/traffic_light_control/vivado.log
+# Journal file: C:/Users/user/Desktop/practice/traffic_light_control\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/user/Desktop/practice/traffic_light_control/traffic_light_control.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specifiedINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.1/data/ip'.
+oupdate_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 17 23:21:04 2023...
+ompile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 17 23:21:06 2023...

@@ -1,0 +1,74 @@
+Unable to capture context for thread 10596 in process 13956, can not generate back trace
+Unable to capture context for thread 18880 in process 13956, can not generate back trace
+Unable to capture context for thread 18972 in process 13956, can not generate back trace
+Unable to capture context for thread 3396 in process 13956, can not generate back trace
+Unable to capture context for thread 21376 in process 13956, can not generate back trace
+Unable to capture context for thread 8248 in process 13956, can not generate back trace
+Unable to capture context for thread 14092 in process 13956, can not generate back trace
+Unable to capture context for thread 2968 in process 13956, can not generate back trace
+Exception at PC 0x00007FFE4BB54C3C
+Unable to capture context for thread 15540 in process 13956, can not generate back trace
+Unable to capture context for thread 21156 in process 13956, can not generate back trace
+Unable to capture context for thread 18368 in process 13956, can not generate back trace
+Exception at PC 0x00007FFE4BB54C3C
+Unable to capture context for thread 15540 in process 13956, can not generate back trace
+Unable to capture context for thread 18368 in process 13956, can not generate back trace
+Exception at PC 0x00007FFD7E67BB93
+Printing stacktrace...
+
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFE4BB54C3C
+[0]  [0x00007FFD7E67BB93]
+[1]  [0x00007FFD7E67BB93]
+[2]  [0x00007FFD7E67B4A1]
+[3]  [0x00007FFD7E67B3EF]
+[4]  [0x00007FFD7E6619FE]
+[5]  [0x00007FFD7E660ED1]
+[6]  [0x00007FFD7E660D76]
+[7]  [0x00007FFD7E6079F6]
+[8]  [0x00007FFD7E5F7AFB]
+[9]  [0x00007FFD7E71E90A]
+[10]  [0x00007FFD7E739F87]
+[11]  [0x00007FFD7E73A05F]
+[12] (BaseThreadInitThunk+0x1d) [0x00007FFE4E0C26AD]
+[13] (RtlUserThreadStart+0x28) [0x00007FFE4E76AA68]
+Done
+Exception at PC 0x00007FFE4BB54C3C
+Exception at PC 0x00007FFD7E381A52
+Attemped to write at address 0x00007FFE1A469BA4
+Printing stacktrace...
+
+[0]  [0x00007FFD7E381A52]
+[1]  [0x00007FFD7E381A52]
+[2]  [0x00007FFD7E381AD4]
+[3]  [0x00007FFD7E4C3FF7]
+[4]  [0x00007FFD7E3A9128]
+[5]  [0x00007FFD7E65DFB9]
+[6]  [0x00007FFD7E82EF23]
+[7]  [0x00007FFD7E73B06B]
+[8]  [0x00007FFD7E7308AF]
+[9]  [0x00007FFD7E730A32]
+[10] (RtlActivateActivationContextUnsafeFast+0x12f) [0x00007FFE4E73868F]
+[11] (LdrShutdownProcess+0x176) [0x00007FFE4E761096]
+[12] (RtlExitUserProcess+0xad) [0x00007FFE4E760C8D]
+[13] (ExitProcess+0xb) [0x00007FFE4E0C82AB]
+[14] (exit+0x8d) [0x00007FFE4E02D7BD]
+[15] (initterm_e+0x25b) [0x00007FFE4E02DE3B]
+[16]  [0x00000000004014CD]
+[17]  [0x000000000040151B]
+[18] (BaseThreadInitThunk+0x1d) [0x00007FFE4E0C26AD]
+[19] (RtlUserThreadStart+0x28) [0x00007FFE4E76AA68]
+Done
